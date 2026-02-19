@@ -22,18 +22,7 @@ The project emphasizes modern UI/UX design principles, responsive layout, and ac
 
 ## Project Structure
 
-project-root/
-│
-├─ index.html
-├─ css/
-│   ├─ style.css
-│   └─ all.min.css
-├─ webfonts/
-├─ js/
-│   └─ app.js
-├─ activities/
-└─ README.md
-
+<pre> ```text project-root/ │ ├─ index.html ├─ css/ │ ├─ style.css │ └─ all.min.css ├─ webfonts/ ├─ js/ │ └─ app.js ├─ activities/ └─ README.md ``` </pre>
 
 ## Technologies Used
 
