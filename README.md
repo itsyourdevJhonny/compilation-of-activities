@@ -24,15 +24,15 @@ The project emphasizes modern UI/UX design principles, responsive layout, and ac
 
 project-root/
 │
-├─ index.html # Main landing page
+├─ index.html
 ├─ css/
-│ ├─ style.css # Main styling including dark mode
-│ └─ all.min.css # FontAwesome CSS
-├─ webfonts/ # FontAwesome font files
+│   ├─ style.css
+│   └─ all.min.css
+├─ webfonts/
 ├─ js/
-│ └─ app.js # JavaScript for card rendering and dark mode
-├─ activities/ # Folder containing individual HTML activity files
-└─ README.md # Project documentation
+│   └─ app.js
+├─ activities/
+└─ README.md
 
 
 ## Technologies Used
