@@ -3,19 +3,19 @@ const activities = [
     title: "Activity 1 - HTML Fundamentals",
     description: "Created a structured webpage using semantic HTML elements.",
     date: "January 15, 2026",
-    link: "activities/activity1.html",
+    link: "activities/activity1/activity1.html",
   },
   {
     title: "Activity 2 - Inline CSS",
     description: "Enhanced the structured HTML webpage by applying inline CSS styles to customize layout, colors, typography, and overall visual presentation.",
     date: "February 16, 2026",
-    link: "activities/activity2.html",
+    link: "activities/activity2/activity2.html",
   },
   {
     title: "Activity 3 - Internal & External CSS",
     description: "Redesigned the original webpage by applying internal and external CSS using element, class, and id selectors to improve layout, styling, and user interface design.",
     date: "February 19, 2026",
-    link: "activities/activity3.html",
+    link: "activities/activity3/activity3.html",
   },
 ];
 
