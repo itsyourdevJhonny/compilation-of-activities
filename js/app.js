@@ -12,9 +12,9 @@ const activities = [
     link: "activities/activity2.html",
   },
   {
-    title: "Activity 3 - TEST",
-    description: "Test Anay",
-    date: "January 30, 2026",
+    title: "Activity 3 - Internal & External CSS",
+    description: "Redesigned the original webpage by applying internal and external CSS using element, class, and id selectors to improve layout, styling, and user interface design.",
+    date: "February 19, 2026",
     link: "activities/activity3.html",
   },
 ];
