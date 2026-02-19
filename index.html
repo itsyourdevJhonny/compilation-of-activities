@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Midterm Activities</title>
+    <title>Major Course Output 1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
@@ -12,78 +12,103 @@
 
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
-    <header>
-      <div class="logo">
-        <i class="fas fa-graduation-cap"></i>
-        Midterm Activities
-      </div>
 
-      <nav>
-        <ul>
-          <li>
-            <a href="#home"><i class="fas fa-home"></i> Home</a>
-          </li>
-          <li>
-            <a href="#activities"
-              ><i class="fas fa-folder-open"></i> Activities</a
-            >
-          </li>
-          <li>
-            <a href="#about"><i class="fas fa-user"></i> About</a>
-          </li>
-        </ul>
-      </nav>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container header-content">
+        <div class="logo">
+          <i class="fas fa-graduation-cap"></i>
+          <span>Major Course Output 1</span>
+        </div>
+
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
+    <!-- HERO -->
     <section id="home" class="hero">
-      <div class="hero-content">
-        <h1>Application Development & Emerging Technologies</h1>
-        <p>
-          A collection of all my completed activities in this subject,
-          showcasing my progress, skills, and improvements throughout the
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <p class="eyebrow">Application Development & Emerging Technologies</p>
+          <h1>Major Course Output 1</h1>
+
+          <p class="hero-description">
+            A structured compilation of completed activities demonstrating
+            applied development principles and emerging technologies.
+          </p>
+
+          <div class="hero-buttons">
+            <button
+              onclick="
+                document
+                  .getElementById('activities')
+                  .scrollIntoView({ behavior: 'smooth' })
+              "
+            >
+              View Activities
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <h3>Student Information</h3>
+          <div class="info-row">
+            <span>Name</span>
+            <strong>Jhon Lee Marahay</strong>
+          </div>
+          <div class="info-row">
+            <span>Year / Section</span>
+            <strong>3A - BSEMC</strong>
+          </div>
+          <div class="info-row">
+            <span>Submission</span>
+            <strong>Major Course Output 1</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="activities" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Compilation of Activities</h2>
+          <p>
+            Organized course outputs showcasing completed activities and project
+            implementations.
+          </p>
+        </div>
+
+        <div id="card-container" class="card-container"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-light">
+      <div class="container">
+        <div class="section-header">
+          <h2>About This Compilation</h2>
+        </div>
+
+        <p class="about-text">
+          This compilation presents the completed course requirements for
+          Application Development & Emerging Technologies. Each activity
+          demonstrates the practical application of development principles,
+          modern tools, and emerging technologies discussed throughout the
           semester.
         </p>
-        <button
-          onclick="
-            document
-              .getElementById('activities')
-              .scrollIntoView({ behavior: 'smooth' })
-          "
-        >
-          <i class="fas fa-arrow-down"></i> Explore Activities
-        </button>
       </div>
     </section>
 
-    <section id="activities" class="activities-section">
-      <h2>
-        <i class="fas fa-layer-group"></i>
-        Compilation of Activities
-      </h2>
-
-      <div id="card-container" class="card-container"></div>
-    </section>
-
-    <section id="about" class="about-section">
-      <div class="about-content">
-        <h2><i class="fas fa-user-circle"></i> About this Compilation of Activities</h2>
-        <p>
-          This landing page serves as a portfolio of all activities completed in
-          the subject Application Development & Emerging Technologies. It
-          organizes each project and task into structured cards, providing
-          direct access to the corresponding outputs and demonstrating the
-          practical application of modern development concepts and emerging
-          technologies.
-        </p>
+    <footer class="footer">
+      <div class="container">
+        <p>Jhon Lee Marahay • 3A - BSEMC • 2026</p>
       </div>
-    </section>
-
-    <footer>
-      <p>
-        <i class="fas fa-code"></i>
-        Developed as part of Subject Requirement • 2026
-      </p>
     </footer>
 
     <script src="js/app.js"></script>
