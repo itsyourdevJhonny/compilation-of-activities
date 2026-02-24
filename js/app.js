@@ -7,15 +7,24 @@ const activities = [
   },
   {
     title: "Activity 2 - Inline CSS",
-    description: "Enhanced the structured HTML webpage by applying inline CSS styles to customize layout, colors, typography, and overall visual presentation.",
+    description:
+      "Enhanced the structured HTML webpage by applying inline CSS styles to customize layout, colors, typography, and overall visual presentation.",
     date: "February 16, 2026",
     link: "activities/activity2/activity2.html",
   },
   {
     title: "Activity 3 - Internal & External CSS",
-    description: "Redesigned the original webpage by applying internal and external CSS using element, class, and id selectors to improve layout, styling, and user interface design.",
+    description:
+      "Redesigned the original webpage by applying internal and external CSS using element, class, and id selectors to improve layout, styling, and user interface design.",
     date: "February 19, 2026",
     link: "activities/activity3/activity3.html",
+  },
+  {
+    title: "Activity 4 - Table List",
+    description:
+      "Created a structured table list using HTML table elements including thead, tbody, rows, and columns to organize student data.",
+    date: "February 24, 2026",
+    link: "activities/activity4/activity4.html",
   },
 ];
 
@@ -39,17 +48,16 @@ activities.forEach((activity) => {
   container.appendChild(card);
 });
 
-const darkModeBtn = document.getElementById('darkModeBtn');
-darkModeBtn.addEventListener('click', () => {
-  document.body.classList.toggle('dark-mode');
+const darkModeBtn = document.getElementById("darkModeBtn");
+darkModeBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
 
-  const icon = darkModeBtn.querySelector('i');
-  if(document.body.classList.contains('dark-mode')) {
-    icon.classList.remove('fa-moon');
-    icon.classList.add('fa-sun');
+  const icon = darkModeBtn.querySelector("i");
+  if (document.body.classList.contains("dark-mode")) {
+    icon.classList.remove("fa-moon");
+    icon.classList.add("fa-sun");
   } else {
-    icon.classList.remove('fa-sun');
-    icon.classList.add('fa-moon');
+    icon.classList.remove("fa-sun");
+    icon.classList.add("fa-moon");
   }
 });
-
