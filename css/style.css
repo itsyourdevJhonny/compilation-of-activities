@@ -129,6 +129,13 @@ body.dark-mode .dark-mode-toggle button {
   gap: 30px;
 }
 
+.nav-links li {
+  display: flex;
+  align-items: center;
+  color: #2563eb;
+  gap: 6px;
+}
+
 .nav-links a {
   text-decoration: none;
   color: #475569;
