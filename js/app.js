@@ -22,7 +22,7 @@ const activities = [
   {
     title: "Activity 4 - Table List",
     description:
-      "Created a structured table list using HTML table elements including thead, tbody, rows, and columns to organize student data.",
+      "Created a structured table list using HTML table elements including thead, tbody, rows, and columns.",
     date: "February 24, 2026",
     link: "activities/activity4/activity4.html",
   },
