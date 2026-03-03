@@ -26,6 +26,13 @@ const activities = [
     date: "February 24, 2026",
     link: "activities/activity4/activity4.html",
   },
+  {
+    title: "Activity 5 - Interactive Portfolio Website",
+    description:
+      "Developed a modern, interactive portfolio webpage showcasing projects, skills, and profile information using HTML, CSS, and JavaScript. Implemented modals for project previews, smooth animations, responsive design, and dynamic navigation highlighting.",
+    date: "March 3, 2026",
+    link: "activities/activity5/activity5.html",
+  },
 ];
 
 const container = document.getElementById("card-container");
