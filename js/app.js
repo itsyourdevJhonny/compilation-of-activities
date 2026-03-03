@@ -29,7 +29,7 @@ const activities = [
   {
     title: "Activity 5 - Interactive Portfolio Website",
     description:
-      "Developed a modern, interactive portfolio webpage showcasing projects, skills, and profile information using HTML, CSS, and JavaScript. Implemented modals for project previews, smooth animations, responsive design, and dynamic navigation highlighting.",
+      "Developed a modern, interactive portfolio webpage showcasing projects, skills, and profile information using HTML, CSS, and JavaScript.",
     date: "March 3, 2026",
     link: "activities/activity5/activity5.html",
   },
