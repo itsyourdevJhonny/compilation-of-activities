@@ -58,6 +58,35 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.logo a {
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.navbar a {
+  position: relative;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.navbar a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 2px;
+  background: var(--primary);
+  transition: 0.3s;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -104,6 +133,31 @@ body {
   flex: 1;
 }
 
+.role {
+  margin-top: 10px;
+  color: var(--secondary);
+  font-weight: 500;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.secondary-btn {
+  margin-left: 8px;
+  padding: 14px 30px;
+  border-radius: 50px;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.secondary-btn:hover {
+  background: var(--primary);
+  color: #000;
+}
+
 .hero-image {
   flex: 1;
   display: flex;
@@ -116,7 +170,9 @@ body {
   border-radius: 12px;
   object-fit: cover;
   filter: drop-shadow(1px 1px 2px var(--primary));
-  transition: transform 0.3s ease, filter 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    filter 0.3s ease;
 }
 
 .hero-image img:hover {
@@ -184,7 +240,7 @@ section {
   line-height: 1.8;
 }
 
-h2  {
+h2 {
   text-align: center;
   margin-bottom: 40px;
 }
