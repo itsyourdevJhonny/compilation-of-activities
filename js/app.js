@@ -33,6 +33,13 @@ const activities = [
     date: "March 3, 2026",
     link: "activities/activity5/activity5.html",
   },
+   {
+    title: "Activity 6 - Personal Information Form",
+    description:
+      "Built an interactive form using HTML, CSS Grid, and JavaScript that collects user information and dynamically displays the submitted data on the page.",
+    date: "March 10, 2026",
+    link: "activities/activity6/activity6.html",
+  },
 ];
 
 const container = document.getElementById("card-container");
