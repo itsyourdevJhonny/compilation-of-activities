@@ -81,7 +81,7 @@ body.dark-mode .footer {
   color: #cbd5e1;
 }
 
-.dark-mode-toggle button {
+.dark-mode-click button {
   background: transparent;
   border: none;
   font-size: 18px;
@@ -90,11 +90,11 @@ body.dark-mode .footer {
   transition: 0.3s;
 }
 
-body.dark-mode .dark-mode-toggle button {
+body.dark-mode .dark-mode-click button {
   color: #f1f5f9;
 }
 
-.dark-mode-toggle button:hover {
+.dark-mode-click button:hover {
   transform: scale(1.1);
 }
 
@@ -151,13 +151,13 @@ body.dark-mode .dark-mode-toggle button {
   color: #2563eb;
 }
 
-.hero {
+.home {
   padding: 100px 0;
   background: linear-gradient(135deg, #2563eb, #4f46e5);
   color: white;
 }
 
-.hero-inner {
+.home-inner {
   display: flex;
   gap: 60px;
   align-items: center;
@@ -165,7 +165,7 @@ body.dark-mode .dark-mode-toggle button {
   flex-wrap: wrap;
 }
 
-.hero-left {
+.home-left {
   flex: 1;
   min-width: 280px;
 }
@@ -176,18 +176,18 @@ body.dark-mode .dark-mode-toggle button {
   margin-bottom: 12px;
 }
 
-.hero h1 {
+.home h1 {
   font-size: 42px;
   margin-bottom: 20px;
 }
 
-.hero-description {
+.home-description {
   max-width: 500px;
   margin-bottom: 30px;
   opacity: 0.95;
 }
 
-.hero button {
+.home button {
   padding: 12px 28px;
   border: none;
   border-radius: 8px;
@@ -198,12 +198,12 @@ body.dark-mode .dark-mode-toggle button {
   transition: 0.2s;
 }
 
-.hero button:hover {
+.home button:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-.hero-card {
+.home-card {
   background: white;
   color: #1e293b;
   padding: 25px;
@@ -212,7 +212,7 @@ body.dark-mode .dark-mode-toggle button {
   box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 
-.hero-card h3 {
+.home-card h3 {
   margin-bottom: 20px;
   font-size: 18px;
 }
